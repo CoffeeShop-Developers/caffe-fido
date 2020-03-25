@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# appsettings
+project.lock.json
+project.fragment.lock.json
+appsettings.json
+appsettings.Development.json
+bundleconfig.json
+.DS_Store
+artifacts/
+**/Properties/launchSettings.json
+
 # User-specific files
 *.rsuser
 *.suo
